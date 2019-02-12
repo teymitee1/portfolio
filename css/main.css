@@ -1,0 +1,144 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+
+.wrapper{
+    overflow: hidden;
+}
+
+.cover {
+    position: relative;
+  background: url(../images/cover2.jpg), url(../images/cover3.jpg) no-repeat center center;
+  background-size: cover;
+  height: 95vh;
+  padding-top: 1rem;
+  transition: 2s;
+  transition: transform 1.5s;
+  background-blend-mode: luminosity;
+}
+
+.cover:hover { 
+    transform:scale(1.02);
+}
+
+.navbar-brand {
+    padding: 10px;
+    font-family: 'Lato', sans-serif;;
+}
+
+
+.navbar-nav a {
+    color: white !important;
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-size: 1em;
+    text-shadow: 1px 1px 0 4px white;
+}
+
+.navbar-nav li:hover {
+    border-bottom: 1px solid white;
+}
+
+.content-wrapper {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    color: white;
+    margin-top: 5vh;
+}
+
+.content-wrapper > p {
+    border: 1px solid wheat;
+    width: 150px;
+    margin: auto;
+    vertical-align: middle;
+    padding: 20px 0;
+    color: wheat;
+    box-shadow: 0 0.5px 2px 0 !important;
+}
+
+.content-wrapper > h2 {
+    margin-top: 4vh;
+}
+
+.chev {
+    box-shadow: 0 0.5px 2px 0 !important;
+    padding: 10px 0 0 0;
+    margin-top: 6vh;
+}
+
+.chev p {
+    padding: 0;
+    margin: 0;
+}
+
+.content-wrapper a {
+    color: white !important;
+    font-size: 15px;
+}
+
+
+
+/* ABOUT */
+
+#about {
+    padding: 50px 0 100px;
+}
+
+
+#about h2 {
+ padding-bottom: 25px; 
+}
+
+
+
+
+.desc {
+    padding-top: 20px;
+}
+
+
+
+#portfolio {
+    padding: 100px 0 100px;
+    background-color: #f2f2f2;
+}
+
+#portfolio h1 {
+ font-size:2em;
+ padding-bottom: 25px;
+}
+
+.portfolio img {
+    margin-top: 15px;
+}
+
+#contact {
+    background-color: #2f2f2f;
+    color: white;
+ padding:100px 0 100px;
+ text-align:center;
+}
+
+#contact h1 {
+ font-size:2em;
+ padding-bottom: 25px;
+}
+
+#contact .fa {
+ color:#1c3f5c;
+ padding:20px 10px 40px;
+}
+
+#contact li {
+ padding-top: 10px;
+}
+
+
+.footer {
+    padding: 30px 0;
+    text-align: center;
+}
