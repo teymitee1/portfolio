@@ -12,7 +12,7 @@ body {
     position: relative;
     background: url(../images/cover2.jpg) no-repeat center center;
     background-size: cover;
-    height: 85vh;
+    height: 98vh;
     padding-top: 1rem;
     transition: 2s;
     transition: transform 1.5s;
