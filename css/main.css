@@ -101,7 +101,7 @@ a {
     padding: 20px 0;
 }
 
-.repo i {
+.repo i, .repo h4 {
     color: black;
 }
 
